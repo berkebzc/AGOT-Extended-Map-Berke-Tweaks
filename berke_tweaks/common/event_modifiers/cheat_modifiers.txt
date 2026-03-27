@@ -1,0 +1,8 @@
+levy_boost_cheat_modifier = {
+    levy_reinforce_rate = 5.0 # 1.0 = %100, 0.5 = %50, 2.0 = %200, 5.0 = %500, 10.0 = %1000
+    icon = 27
+}
+levy_boost_cheat_modifier_1000 = {
+    levy_reinforce_rate = 10.0 # 1.0 = %100, 0.5 = %50, 2.0 = %200, 5.0 = %500, 10.0 = %1000
+    icon = 27
+}

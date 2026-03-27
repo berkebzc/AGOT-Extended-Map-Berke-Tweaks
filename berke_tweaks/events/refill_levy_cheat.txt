@@ -1,0 +1,47 @@
+namespace = REFILL
+
+character_event = {
+    id = REFILL.1
+    title = "Boost Levy Reinforcements Cheat"
+    desc = "With this you can boost your levy reinforcements. This is a cheat decision. Use it wisely!"
+    picture = GFX_evt_battle
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Boost Levy Reinforcement by 500% + Fill up the garnizon"
+
+        any_demesne_title = {
+            limit = { has_holder = yes }
+            set_levy_size = 1
+            repair_guild_holdings = yes
+        }
+        
+        any_demesne_province = {
+            add_province_modifier = {
+                name = levy_boost_cheat_modifier
+                duration = 365 # 1 = 1 gün, 365 = 1 yıl 
+            }
+        }
+    }
+    option = {
+        name = "Boost Levy Reinforcement by 1000% + Fill up the garnizon"
+
+        any_demesne_title = {
+            limit = { has_holder = yes }
+            set_levy_size = 1
+            repair_guild_holdings = yes
+        }
+        
+        any_demesne_province = {
+            add_province_modifier = {
+                name = levy_boost_cheat_modifier_1000
+                duration = 365 # 1 = 1 gün, 365 = 1 yıl 
+            }
+        }
+    }
+
+    option = {
+        name = "Not now..."
+    }
+}

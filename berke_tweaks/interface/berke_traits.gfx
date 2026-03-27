@@ -1,0 +1,20 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_trait_berke100"
+        texturefile = "gfx/traits/favored_by_rhllor.dds"
+        noOfFrames = 1
+        effectFile = "gfx/FX/buttonstate.lua"
+    }
+    spriteType = {
+        name = "GFX_trait_berke150"
+        texturefile = "gfx/traits/chosen_by_rhllor.dds"
+        noOfFrames = 1
+        effectFile = "gfx/FX/buttonstate.lua"
+    }
+    spriteType = {
+        name = "GFX_trait_berke200"
+        texturefile = "gfx/traits/resurrected_by_rhllor.dds"
+        noOfFrames = 1
+        effectFile = "gfx/FX/buttonstate.lua"
+    }
+}

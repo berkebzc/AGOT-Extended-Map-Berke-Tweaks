@@ -1,0 +1,152 @@
+# castle = {
+
+#     bb_slavery_1 = {
+#         desc = bb_slavery_1_desc
+        
+#         potential = {
+#             owner = {
+#                 OR = {
+#                     religion_group = drowned_god_group
+#                     religion_group = essos_group
+#                     religion_group = valyrian_rel_group
+#                     religion_group = far_east_group
+#                     religion_group = dothraki_rel_group
+#                     religion_group = pirate_group
+#                 }
+#             }
+#         }
+
+#         build_cost = 400
+#         build_time = 365
+
+#         trigger = { always = no }
+# 		ai_creation_factor = 0
+# 		extra_tech_building_start = 10.0 # Never get at start of game
+
+#         light_infantry = 1000
+#         light_infantry_morale = -0.1
+#         garrison_size = -0.1
+#         tax_income = 2
+#     }
+
+#     bb_slavery_2 = {
+#         upgrades_from = bb_slavery_1
+#         desc = bb_slavery_1_desc
+        
+#         potential = {
+#             owner = {
+#                 OR = {
+#                     religion_group = drowned_god_group
+#                     religion_group = essos_group
+#                     religion_group = valyrian_rel_group
+#                     religion_group = far_east_group
+#                     religion_group = dothraki_rel_group
+#                     religion_group = pirate_group
+#                 }
+#             }
+#         }
+
+#         build_cost = 400
+#         build_time = 365
+
+#         trigger = { always = no }		
+#         ai_creation_factor = 0
+# 		extra_tech_building_start = 10.0 # Never get at start of game
+
+#         light_infantry = 1000
+#         light_infantry_morale = -0.1
+#         garrison_size = -0.1
+#         tax_income = 2
+#     }
+
+#     bb_slavery_3 = {
+#         upgrades_from = bb_slavery_2
+#         desc = bb_slavery_1_desc
+        
+#         potential = {
+#             owner = {
+#                 OR = {
+#                     religion_group = drowned_god_group
+#                     religion_group = essos_group
+#                     religion_group = valyrian_rel_group
+#                     religion_group = far_east_group
+#                     religion_group = dothraki_rel_group
+#                     religion_group = pirate_group
+#                 }
+#             }
+#         }
+
+#         build_cost = 500
+#         build_time = 365
+
+#         trigger = { always = no }
+#         ai_creation_factor = 0
+# 		extra_tech_building_start = 10.0 # Never get at start of game
+
+#         light_infantry = 1500
+#         light_infantry_morale = -0.1
+#         garrison_size = -0.1
+#         tax_income = 2
+#     }
+
+#     bb_slavery_4 = {
+#         upgrades_from = bb_slavery_3
+#         desc = bb_slavery_1_desc
+        
+#         potential = {
+#             owner = {
+#                 OR = {
+#                     religion_group = drowned_god_group
+#                     religion_group = essos_group
+#                     religion_group = valyrian_rel_group
+#                     religion_group = far_east_group
+#                     religion_group = dothraki_rel_group
+#                     religion_group = pirate_group
+#                 }
+#             }
+#         }
+
+#         build_cost = 500
+#         build_time = 365
+
+#         trigger = { always = no }
+# 		ai_creation_factor = 0
+# 		extra_tech_building_start = 10.0 # Never get at start of game
+
+#         light_infantry = 1500
+#         light_infantry_morale = -0.1
+#         garrison_size = -0.1
+#         tax_income = 2
+#     }
+
+#     bb_slavery_5 = {
+#         upgrades_from = bb_slavery_4
+#         desc = bb_slavery_1_desc
+
+#         potential = {
+#             owner = {
+#                 OR = {
+#                     religion_group = drowned_god_group
+#                     religion_group = essos_group
+#                     religion_group = valyrian_rel_group
+#                     religion_group = far_east_group
+#                     religion_group = dothraki_rel_group
+#                     religion_group = pirate_group
+#                 }
+#             }
+#         }
+
+#         build_cost = 1000
+#         build_time = 365
+        
+#         trigger = { always = no }
+# 		ai_creation_factor = 0
+# 		extra_tech_building_start = 10.0 # Never get at start of game
+
+#         light_infantry = 2000
+#         light_infantry_morale = -0.1
+#         garrison_size = -0.2
+#         tax_income = 2
+
+#     }
+# }

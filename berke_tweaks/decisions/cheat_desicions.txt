@@ -1,0 +1,49 @@
+decisions = {
+    open_berke_menu = {
+        potential = {
+            ai = no
+            NOT = { has_character_flag = berke_menu_open }
+        }
+        allow = { always = yes }
+        effect = {
+            set_character_flag = berke_menu_open
+        }
+        revoke_allowed = { always = no }
+        ai_will_do = { factor = 0 }
+    }
+
+    close_berke_menu = {
+        potential = {
+            ai = no
+            has_character_flag = berke_menu_open
+        }
+        allow = { always = yes }
+        effect = {
+            clr_character_flag = berke_menu_open
+        }
+        revoke_allowed = { always = no }
+        ai_will_do = { factor = 0 }
+    }
+
+    refill_levies_cheat = {
+        potential = { 
+            ai = no 
+            has_character_flag = berke_menu_open
+        }
+        allow = { always = yes }
+        effect = {
+            character_event = { id = REFILL.1 }
+        }
+    }
+    
+    remove_point_traits_cheat = {
+        potential = { 
+            ai = no 
+            has_character_flag = berke_menu_open
+        }
+        allow = { always = yes }
+        effect = {
+            character_event = { id = berke_traits.1 }
+        }
+    }
+}

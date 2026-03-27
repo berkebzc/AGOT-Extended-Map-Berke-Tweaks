@@ -1,0 +1,23 @@
+namespace = berke_traits
+
+character_event = {
+    id = berke_traits.1
+    title = "x Remove Point Traits x"
+    desc = "Clean up the point trait."
+    picture = GFX_evt_battle
+    
+    is_triggered_only = yes
+
+    option = {
+        name = "Clean up the point traits"
+
+        remove_trait = berke100
+        remove_trait = berke150
+        remove_trait = berke200
+    }
+
+    option = {
+        name = "Not now..."
+    }
+    
+}
